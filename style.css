@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 28px;
+    margin: 0;
+    color: #00468B;
+}
+
+.header p {
+    margin: 5px 0;
+}
+
+.header .icons {
+    margin-top: 10px;
+}
+
+.header a {
+    margin: 0 5px;
+    text-decoration: none;
+    color: #00468B;
+    font-size: 14px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    color: #00468B;
+    font-size: 18px;
+    border-bottom: 2px solid #00468B;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+ul li {
+    margin: 5px 0;
+    position: relative;
+}
+
+ul li::before {
+    content: '\2022';
+    color: #00468B;
+    position: absolute;
+    left: -20px;
+}
+
+a {
+    color: #00468B;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.two-column {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.two-column > div {
+    flex: 1;
+}
